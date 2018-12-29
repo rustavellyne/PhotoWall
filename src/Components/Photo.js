@@ -8,7 +8,7 @@ function Photo({post,onRemovePhoto}) {
                 <p>{post.description}</p>
             </figcaption>
             <div className='button-container'>
-                <button className='remove-button' onClick={()=>{onRemovePhoto(post)}}>Remove</button>
+                <button onClick={()=>{onRemovePhoto(post)}}>Remove</button>
             </div>
 
         </figure>
