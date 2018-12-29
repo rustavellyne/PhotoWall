@@ -18,6 +18,11 @@ h1 {
     color: black;
 }
 
+h1 a {
+    color: black;
+    text-decoration: none;
+}
+
 @font-face {
     font-family: 'billabong';
     src: url("https://cdn.rawgit.com/milktronics/beaglegr.am/master/public/fonts/billabong-webfont.eot?#iefix") format('embedded-opentype'),
